@@ -1,0 +1,64 @@
+body {margin: 0;
+padding: 0;
+}
+
+.sectionone{
+    background-color: #1F2937;
+}
+
+.header h3{
+    color:white;
+    font-family: roboto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto; 
+    max-width: 1200px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-family: roboto;
+    color: lightgray;
+}
+
+.websitetitle{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    align-items: start;
+    padding: 20px;
+    margin: 0 auto; 
+    max-width: 1200px;
+    font-family: roboto;
+}
+
+.websitetitle h1{
+    color:white;
+}
+
+.websitetitle p{
+    color:lightgray;
+}
+
+.websitetitle button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    width: 100px;
+    height: 30px;
+}
+
+
+img{
+    max-width: 100%;
+    height:auto;
+    display: block;
+}
