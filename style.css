@@ -4,6 +4,7 @@ padding: 0;
 
 .sectionone{
     background-color: #1F2937;
+    padding-bottom: 100px;
 }
 
 .header h3{
@@ -65,6 +66,10 @@ padding: 0;
     margin-left: auto;
 }
 
+.sectiontwo{
+    padding: 100px;
+}
+
 .sectiontwo h2{
     text-align: center;
     font-family: roboto;
@@ -88,4 +93,51 @@ padding: 0;
     text-align: center;
     font-family: roboto;
     font-size: 2em;
+}
+
+.sectionthree{
+    padding: 200px;
+    background-color: #E5E7EB;
+}
+
+.quote{
+    text-align: center;
+    font-family: roboto;
+}
+
+.name{
+    font-family: roboto;
+    text-align: center;
+}
+
+.sectionfour{
+    padding: 100px
+}
+
+.cta_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    height: 150px;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 250px;
+}
+
+.cta_caption{
+    color:white;
+    font-family: roboto;
+}
+
+.cta_button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    width: 120px;
+    height: 40px;
+    border-style: solid;
 }
