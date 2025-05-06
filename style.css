@@ -1,5 +1,9 @@
-body {margin: 0;
-padding: 0;
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .sectionone{
@@ -140,4 +144,22 @@ padding: 0;
     width: 120px;
     height: 40px;
     border-style: solid;
+}
+
+.footer{
+    background-color: #1F2937;
+}
+
+footer {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+.copyright{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    padding: 2rem 2rem;   
 }
